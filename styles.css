@@ -727,15 +727,15 @@ h1 > span {
   background: white;
 }
 .getmyuni-wordmark {
-  color: #657163;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: -0.06em;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 5px;
+  background: #285fa3;
 }
-.getmyuni-wordmark > span {
-  color: #ae935b;
-  font-size: 17px;
-  margin-left: 2px;
+.getmyuni-wordmark > img {
+  width: 118px;
+  height: auto;
 }
 .text-link {
   display: inline-flex;
@@ -952,9 +952,13 @@ h1 > span {
   font-size: 26px;
 }
 .getmyuni-logo {
-  color: #87763e;
-  font-size: 28px;
-  font-weight: 600;
+  width: 104px;
+  border-color: #285fa3;
+  background: #285fa3;
+}
+.getmyuni-logo > img {
+  width: 86px;
+  height: auto;
 }
 .experience-content > p,
 .contribution-list {
@@ -2214,8 +2218,8 @@ h1 > span {
   .sg-wordmark {
     font-size: 12px;
   }
-  .getmyuni-wordmark {
-    font-size: 16px;
+  .getmyuni-wordmark > img {
+    width: 108px;
   }
   .section {
     padding-block: 64px;
@@ -2776,8 +2780,8 @@ h1 > span {
     font-size: 10px;
     gap: 5px;
   }
-  .getmyuni-wordmark {
-    font-size: 14px;
+  .getmyuni-wordmark > img {
+    width: 94px;
   }
   .project-filters > button {
     padding-inline: 10px;
