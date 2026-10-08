@@ -951,13 +951,13 @@ h1 > span {
   font-family: Georgia, serif;
   font-size: 26px;
 }
-.company-logo.getmyuni-logo {
-  width: 104px;
-  background: #fff;
+.getmyuni-logo {
+  overflow: hidden;
 }
 .getmyuni-logo > img {
-  width: 86px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .experience-content > p,
 .contribution-list {
