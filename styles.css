@@ -731,7 +731,7 @@ h1 > span {
   align-items: center;
   padding: 6px 8px;
   border-radius: 5px;
-  background: #285fa3;
+  background: #fff;
 }
 .getmyuni-wordmark > img {
   width: 118px;
@@ -953,8 +953,7 @@ h1 > span {
 }
 .company-logo.getmyuni-logo {
   width: 104px;
-  border-color: #285fa3;
-  background: #285fa3;
+  background: #fff;
 }
 .getmyuni-logo > img {
   width: 86px;
